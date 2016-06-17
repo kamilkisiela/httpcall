@@ -8,9 +8,7 @@ export function constructUrl(url, query, params) {
 }
 
 export function encodeString(str) {
-  // XXX instead of '' there was a escape variable
-  // wat is dat?
-  return encodeURIComponent(str).replace(/[!'()]/g, '').replace(/\*/g, "%2A");
+  return encodeURIComponent(str).replace(/[!'()]/g, encodeURI).replace(/\*/g, "%2A");
 }
 
 

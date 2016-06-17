@@ -1,5 +1,7 @@
 {
   "globalDependencies": {
+    "jasmine": "registry:dt/jasmine#2.2.0+20160505161446",
+    "jasmine-ajax": "registry:dt/jasmine-ajax#3.1.1+20160613144426",
     "underscore": "registry:dt/underscore#1.7.0+20160505190121"
   }
 }
