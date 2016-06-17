@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Make HTTP calls to remote servers",
   "main": "build/src/index.js",
+  "typings": "build/src/index.d.ts",
   "scripts": {
     "pretest": "npm run build",
     "test": "npm run test-ci",
