@@ -1,0 +1,21 @@
+{
+  "name": "httpcall",
+  "version": "0.0.1",
+  "description": "Make HTTP calls to remote servers",
+  "main": "build/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "Kamil Kisiela <kamil.kisiela@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "tsc": "^1.20150623.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.0"
+  }
+}
