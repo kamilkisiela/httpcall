@@ -23,16 +23,14 @@ install:
   - sh -e /etc/init.d/xvfb start
   - npm i
   - npm install -g typings
-  # - npm install -g coveralls
+  #- npm install -g coveralls
 
 script:
   # remove unused node modules from cache
   - npm prune
   # install typings
   - typings i
-  # karma tests
-  - npm test
 
 after_script:
   # send code-coverage report to coveralls
-  # - coveralls < ./coverage/lcov.info || true
+  #- coveralls < ./coverage/lcov.info || true

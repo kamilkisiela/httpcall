@@ -4,7 +4,9 @@
   "description": "Make HTTP calls to remote servers",
   "main": "build/src/index.js",
   "scripts": {
-    "test": "karma start",
+    "pretest": "npm run build",
+    "test": "npm run test-ci",
+    "test-ci": "karma start --browsers Firefox",
     "test-watch": "karma start --no-single-run",
     "build": "tsc",
     "watch": "tsc -w"
