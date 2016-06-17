@@ -27,7 +27,6 @@
     "karma-webpack": "^1.7.0",
     "tsc": "^1.20150623.0",
     "typescript": "^1.8.10",
-    "typings": "^1.3.0",
     "webpack": "^1.13.1"
   }
 }
